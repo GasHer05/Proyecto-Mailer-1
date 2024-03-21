@@ -18,7 +18,6 @@ window.onload = () => {
       error.innerHTML = responseText;
       return;
     }
-    console.log("SS");
     mailerform.reset();
     alert("correo enviado con exito!!");
   };
